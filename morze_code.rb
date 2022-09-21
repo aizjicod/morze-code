@@ -20,8 +20,6 @@ def decode_char(code)
   morse_hash[code]
 end
 
-# puts(decode_char("--.."))
-
 def decode_word(morse)
   word = ''
   morse.split.each do |code|
@@ -29,7 +27,6 @@ def decode_word(morse)
   end
   word
 end
-# puts(decode_word("-... -.- -.."))
 
 def decode(statement)
   sentence = ''
